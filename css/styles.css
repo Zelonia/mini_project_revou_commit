@@ -1,0 +1,373 @@
+/* Add this to your existing CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(250, 238, 215); /* Orange color */
+    color: #FFA500; /* Darker orange color for text */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center the items within the navbar */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+
+}
+
+.nav-links a {
+    color: #FF6347; /* Bright orange color for navigation text */
+    text-decoration: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px; /* Adjusted margin to add space between list items */
+}
+.nav-links li {
+    display: inline;
+    margin-left: 20px; /* Adjusted margin to add space between list items */
+}
+
+
+
+nav a {
+    color: #FF6347; /* Bright orange color for navigation text */
+    text-decoration: none;
+}
+
+.banner, .middle-section, .call-to-action, footer {
+    text-align: center;
+    margin: 20px;
+}
+
+.left-side, .right-side {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Additional styling for logo */
+.logo {
+    display: inline-block;
+    margin-right: 20px;
+    /*font-family: 'Lucida Handwriting', cursive; / /* Font for the logo */ 
+    
+    font-family: 'Comic Sans MS', cursive; /* Change to your preferred font */
+    font-size: 24px;
+    color: #FF6347; /* Bright orange color for the logo */
+    cursor: pointer;
+}
+
+/* Add this to your existing CSS */
+.more-info {
+    text-align: center; /* Center the items */
+}
+
+.info-item {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between; /* Add space between image and text */
+    align-items: center; /* Center the items vertically */
+}
+
+.info-item img {
+    max-width: 40%; /* Set the maximum width of the image */
+    border-radius: 8px;
+}
+
+.text-info {
+    text-align: left;
+    flex-grow: 1; /* Allow text to take remaining space */
+    margin: 0 20px; /* Add margin to separate text and image */
+}
+
+/* Add this to your existing CSS */
+.middle-section {
+    display: flex;
+}
+
+.left-side {
+    width: 50%;
+    padding: 20px;
+}
+
+.right-side {
+    width: 50%;
+    padding: 20px;
+}
+
+.image-feed img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.testimonial {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.testimonial img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.package-info {
+    margin-top: 20px;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+/* Add more styling as needed */
+/* Add this to your existing CSS */
+.middle-section {
+    display: flex;
+    flex-direction: column; /* Stack the sections vertically */
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between; /* Separate the left and right sidebar */
+}
+
+.left-sidebar,
+.right-sidebar {
+    width: 48%; /* Adjust the width as needed */
+    padding: 20px;
+}
+
+.left-sidebar {
+    background-color: #f0f0f0; /* Light gray background for the left sidebar */
+}
+
+.bottom-section {
+    width: 100%; /* Full width for the bottom section */
+    padding: 20px;
+}
+
+/* Style for Contact Form */
+.contact-form {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form select {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #4caf50; /* Green submit button */
+    color: white;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Style for Featured Travel Packages */
+.featured-packages {
+    text-align: left;
+}
+
+.package-info {
+    margin-top: 20px;
+}
+
+/* Add more styling as needed */
+/* Add this to your existing CSS */
+.testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Memposisikan elemen ke tengah */
+    text-align: center; /* Untuk menengahkan teks */
+    
+}
+
+.user-info {
+    text-align: left;
+}
+
+.image-feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Memposisikan elemen ke tengah */
+}
+
+.feed-item {
+    width: 48%;
+    margin: 5px;
+    text-align: center; /* Untuk menengahkan teks */
+}
+
+.feed-item img {
+    width: 100%;
+    max-height: 300px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+    border-radius: 8px;
+}
+.testimonial img {
+    width: auto; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    border-radius: 50%; /* Agar gambar menjadi lingkaran */
+    margin-right: 20px; /* Jarak antara gambar dan teks */
+}
+.user-info h2,
+.user-info p {
+    margin: 0;
+}
+
+/* Add this to your existing CSS */
+#our-packages {
+    background-color: #f0f0f0; /* Background color grayish */
+    text-align: center;
+    padding: 20px;
+}
+
+.package-header h2 {
+    font-size: 2em; /* Adjust font size as needed */
+    color: #333; /* Text color dark gray */
+}
+
+.package-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.package-item {
+    width: 300px; /* Adjust width as needed */
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+}
+
+.package-item h3 {
+    color: #333; /* Text color dark gray */
+}
+
+.package-item p {
+    color: #666; /* Text color light gray */
+    margin-top: 10px;
+}
+
+/* Add this to your existing CSS */
+#our-packages {
+    background-color: #f0f0f0; /* Background color grayish */
+    text-align: center;
+    padding: 20px;
+}
+
+.package-header h2 {
+    font-size: 2em; /* Adjust font size as needed */
+    color: #333; /* Text color dark gray */
+}
+
+.package-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Menyusun kolom sejajar dengan jarak sekitar */
+}
+
+.package-item {
+    width: 300px; /* Adjust width as needed */
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+    text-align: left; /* Text align to the left */
+}
+
+.package-item h3 {
+    color: #333; /* Text color dark gray */
+}
+
+.package-item p {
+    color: #666; /* Text color light gray */
+    margin-top: 10px;
+}
+
+/* Add this to your existing CSS */
+#call-us {
+    background-color:  rgb(250, 238, 215); /* Background color dark gray */
+    color:  #FFA500; /* Text color white */
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.closing-argument {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #4caf50; /* Green color for the button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Add this to your existing CSS */
+footer {
+    background-color:  rgb(250, 238, 215); /* Background color dark gray */
+    color: #FFA500; /* Text color white */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo p {
+    font-size: 1.5em; /* Adjust font size as needed */
+    margin: 0;
+}
+
+.footer-links a {
+    color: #FFA500;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.copyright {
+    margin-top: 20px;
+}
